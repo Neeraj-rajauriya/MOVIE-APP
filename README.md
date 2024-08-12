@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+        Internal styling
+         <!-- <div style={style.nav}>
+                <div style={style.title}>
+                    Moive-App
+                </div>
+                <div style={style.cartContainer}>
+                    <img  src="https://cdn-icons-png.flaticon.com/128/3144/3144456.png" style={style.cartIcon} alt="Image Icon"/>
+                    <span style={style.cartCount}>5</span>
+                </div>
+            </div> -->
+            const style=
+        nav:{
+        width:"100%", 
+        height:70, 
+        background:"#4267b2", 
+        display:"flex" ,
+        justifyContent:"space-between",
+        alignItem:"center",
+        position:"relative"
+    },
+    title:{
+        fontSize:30,
+        color:"#fff",
+        fontWeight:600,
+        fontFamily:'"Montserrat", sans-serif',
+        textTransform:"uppercase",
+        marginLeft:20,
+        paddingTop:10,
+        marginTop:5
+    },
